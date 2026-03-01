@@ -4,7 +4,7 @@
 
 ## 步骤如下
 
-WSL 网络配置为 `Mirrored`
+WSL 网络配置为镜像模式（Mirrored）
 
 ![wsl-network](./static/wsl-network.png)
 
@@ -24,7 +24,7 @@ WSL 网络配置为 `Mirrored`
 
 重启 WSL (在 Powershell 中执行 `wsl --shutdown`)
 
-注：开启 TUN 模式后，无需开启系统代理，也无需设置环境变量
+**注意**：开启 TUN 模式后，无需开启系统代理，也无需设置环境变量
 
 ## 参考
 
