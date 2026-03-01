@@ -1,16 +1,16 @@
-# 使用镜像加速下载
+# ⚡ 使用镜像加速下载
 
-## Ubuntu APT 镜像
+## 🐧 Ubuntu APT 镜像
 
 - [Tuna 镜像](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)
 
-## Docker 镜像
+## 🐳 Docker 镜像
 
-没有，请使用 TUN 模式强制所有流量通过代理
+❌ 没有镜像可用，请使用 TUN 模式强制所有流量通过代理
 
-## Python 镜像
+## 🐍 Python 镜像
 
-### UV (Python 包管理器)
+### UV (Python 包管理器) ⚡
 
 配置文件: `~/.zshrc`
 
@@ -20,7 +20,7 @@ export UV_PYTHON_INSTALL_MIRROR="https://mirror.nju.edu.cn/github-release/astral
 export UV_DEFAULT_INDEX="https://pypi.tuna.tsinghua.edu.cn/simple"
 ```
 
-## Node.js 镜像
+## 📦 Node.js 镜像
 
 ### NVM
 
@@ -30,14 +30,14 @@ export UV_DEFAULT_INDEX="https://pypi.tuna.tsinghua.edu.cn/simple"
 export NVM_NODEJS_ORG_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
 ```
 
-### npm
+### npm 📦
 
 配置文件: `~/.npmrc`
 
 ```shell
 registry=https://registry.npmmirror.com
 ```
-### Bun
+### Bun 🥟
 
 配置文件: `~/.bunfig.toml`
 
@@ -46,6 +46,7 @@ registry=https://registry.npmmirror.com
 registry = "https://registry.npmmirror.com"
 ```
 
-## Oh My zsh 及部分插件镜像
+## 🐚 Oh My Zsh 及部分插件镜像
 
 - [NJU](https://mirror.nju.edu.cn/mirrorz-help/ohmyzsh.git?mirror=NJU)
+
